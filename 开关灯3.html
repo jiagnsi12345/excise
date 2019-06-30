@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <input type="button" value="开灯" id="k">
+    <input type="button" value="关灯" id="g">
+</body>
+<script>
+ var k=document.getElementById("k");
+ var g=document.getElementById("g");
+ var body=document.body;
+
+ k.onclick=function(){
+     body.style.backgroundColor="#fff";
+ }
+ g.onclick=function(){
+     body.style.backgroundColor="#000";
+ }
+
+</script>  
+
+</html>

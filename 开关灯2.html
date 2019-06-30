@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <button id="open">开灯</button>
+    <button id="close">关灯</button>
+   
+</body>
+<script>
+    var open=document.getElementById("open");
+    var close=document.getElementById("close");
+    var body=document.body;
+
+    open.onclick=function(){
+        body.style.backgroundColor="#fff";
+        
+    }
+    close.onclick=function(){
+        body.style.backgroundColor="#000";
+        
+    }
+</script>
+
+</html>
